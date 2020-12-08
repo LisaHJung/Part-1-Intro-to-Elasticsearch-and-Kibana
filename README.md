@@ -24,12 +24,12 @@ PUT Name-of-the-Index
 ```
 
 #### Index a document 
-If document already exists:
+If document id already exists:
 
 ```
 PUT Name-of-the-Index/document-endpoint/document-id
 ```
-If document does not exist: 
+If documentid does not exist: 
 ```
 POST Name-of-the-Index
 ````
