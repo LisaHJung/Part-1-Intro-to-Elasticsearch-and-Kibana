@@ -23,26 +23,29 @@ Basic Syntax:
 PUT Name-of-the-Index
 ```
 
-#### Index a document 
+#### Index a document
+Basic Syntax:
 If document id already exists:
-
 ```
 PUT Name-of-the-Index/document-endpoint/document-id
 ```
 If documentid does not exist: 
+Basic Syntax:
 ```
 POST Name-of-the-Index
 ````
 ### Create a document 
+Basic Syntax:
 ```
 PUT Name-of-the-Index/_create/document-id
 ```
 ### Read a document 
+Basic Syntax:
 ```
 GET Name-of-the-Index/document-endpoint/document-id
 ```
 ### Update a document
-
+Basic Syntax:
 ```
 POST Name-of-the-Index/_update/document-id
 ```
