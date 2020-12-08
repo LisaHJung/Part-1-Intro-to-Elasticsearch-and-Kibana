@@ -1,4 +1,4 @@
-# Beginner's Crash Course to the Elastic-Stack
+# Beginner's Crash Course to the Elastic Stack
 # Part 1.1: Intro to Elasticsearch & Kibana
 
 [Powerpoint Presentation]()
