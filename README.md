@@ -25,6 +25,8 @@ GET _cluster/health
 GET _nodes/stats
 ```
 ## Performing CRUD operations
+
+## C - Create
 ### Create an index
 Basic Syntax:
 ```
@@ -72,29 +74,34 @@ PUT favorite_candy/_doc/123
 }
 ```
 
-### Create a document 
+### _create Endpoint
 Basic Syntax:
 ```
 PUT Name-of-the-Index/_create/document-id
 ```
+
+##R - READ
 ### Read a document 
 Basic Syntax:
 ```
 GET Name-of-the-Index/document-endpoint/document-id
 ```
+
+##U - UPDATE
 ### Update a document
 Basic Syntax:
 ```
 POST Name-of-the-Index/_update/document-id
 ```
+##D- DELETE
 ### Delete a document
 
 Basic Syntax:
 ```
 DELETE Name-of-the-Index/document-endpoint/document-id
 ```
-
-#### Return all documents from an index in Elasticsearch
+##Miscellaneous
+### Return all documents from an index in Elasticsearch
 Make a GET request with the _search API to return all documents in an index using a "match all" query
 https://kb.objectrocket.com/elasticsearch/how-to-return-all-documents-from-an-index-in-elasticsearch
 Basic Syntax:
