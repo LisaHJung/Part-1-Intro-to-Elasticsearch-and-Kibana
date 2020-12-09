@@ -1,10 +1,14 @@
 # Beginner's Crash Course to the Elastic Stack
-# Part 1.1: Intro to Elasticsearch & Kibana
+## Part 1.1: Intro to Elasticsearch & Kibana
+
+Welcome to the Beginner's Crash Course to the Elastic Stack.
+This repo contains all resources shared during workshop 1.1: Intro to Elasticsearch and Kibana.
 
 [Powerpoint Presentation]()
 
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
+## Getting information about cluster and nodes
 Basic Syntax: 
 ```
 HTTP-Verb _API/command 
@@ -17,12 +21,11 @@ GET _cluster/health
 ```
 GET /_nodes/stats
 ```
+## Performing CRUD operations
 ### Create an index
-Basic Syntax:
 ```
 PUT Name-of-the-Index
 ```
-
 #### Index a document
 Basic Syntax:
 If document id already exists:
