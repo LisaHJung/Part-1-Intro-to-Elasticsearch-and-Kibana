@@ -42,15 +42,15 @@ Basic Syntax:
 ```
 POST Name-of-the-Index/_document-endpoint
 {
-"field": "value",
+  "field": "value"
 }
 ````
 Example:
 ```
 POST favorite_candy/_doc
 {
-"name": "Lisa",
-"candy": "Sour Skittles"
+  "name": "Lisa",
+  "candy": "Sour Skittles"
 }
 ```
 
@@ -60,7 +60,7 @@ For more detailed explanation, check out this [documentation](https://www.elasti
 ```
 PUT Name-of-the-Index/document-endpoint/document-id
 {
-"field": "value",
+  "field": "value"
 }
 ```
 Example:
@@ -92,4 +92,26 @@ POST Name-of-the-Index/_update/document-id
 Basic Syntax:
 ```
 DELETE Name-of-the-Index/document-endpoint/document-id
+```
+
+#### Return all documents from an index in Elasticsearch
+Make a GET request with the _search API to return all documents in an index using a "match all" query
+https://kb.objectrocket.com/elasticsearch/how-to-return-all-documents-from-an-index-in-elasticsearch
+Basic Syntax:
+```
+GET name-of-the-Index/_search-API
+{
+  "query": {
+    "match_all": {}
+  }
+}
+```
+Example:
+```
+GET favorite_candy/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
 ```
