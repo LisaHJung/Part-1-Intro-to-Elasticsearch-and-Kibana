@@ -38,11 +38,6 @@ PUT favorite_candy
 When indexing a document, both HTTP verbs - POST or PUT - can be used. 
 
 1) Use POST when you want Elasticsearch to autogenerate an id for your document. 
-
-2) Use PUT when you want to assign a specific id to your document(i.e. if your document has a natural identifier - purchase order number, patient id, & etc).
-For more detailed explanation, check out this [documentation](https://www.elastic.co/guide/en/elasticsearch/guide/current/index-doc.html) from Elastic! 
-
-1) If you want to have Elasticsearch autogenerate an id for your document, follow this syntax: 
 Basic Syntax:
 ```
 POST Name-of-the-Index/_document-endpoint
@@ -58,7 +53,10 @@ POST favorite_candy/_doc
 "candy": "Sour Skittles"
 }
 ```
-2) If you want to assign a specific id to your document, follow this syntax:
+
+2) Use PUT when you want to assign a specific id to your document(i.e. if your document has a natural identifier - purchase order number, patient id, & etc).
+For more detailed explanation, check out this [documentation](https://www.elastic.co/guide/en/elasticsearch/guide/current/index-doc.html) from Elastic! 
+
 ```
 PUT Name-of-the-Index/document-endpoint/document-id
 {
