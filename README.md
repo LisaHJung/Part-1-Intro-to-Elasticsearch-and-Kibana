@@ -1,8 +1,11 @@
 # Beginner's Crash Course to the Elastic Stack
 ## Part 1.1: Intro to Elasticsearch & Kibana
 
-Welcome to the Beginner's Crash Course to the Elastic Stack.
-This repo contains all resources shared during workshop 1.1: Intro to Elasticsearch and Kibana.
+Welcome to the Beginner's Crash Course to the Elastic Stack!
+
+This repo contains all resources shared during the workshop 1.1: Intro to Elasticsearch and Kibana.
+
+## Resources
 
 [Powerpoint Presentation]()
 
@@ -11,7 +14,7 @@ This repo contains all resources shared during workshop 1.1: Intro to Elasticsea
 ## Getting information about cluster and nodes
 Basic Syntax: 
 ```
-HTTP-Verb _API/command 
+HTTP-Verb _API/command
 ```
 ### Get info about cluster health
 ```
@@ -19,12 +22,17 @@ GET _cluster/health
 ```
 ### Get info about nodes in a cluster
 ```
-GET /_nodes/stats
+GET _nodes/stats
 ```
 ## Performing CRUD operations
 ### Create an index
+Basic Syntax:
 ```
 PUT Name-of-the-Index
+```
+Example:
+```
+PUT favorite_candy
 ```
 #### Index a document
 Basic Syntax:
@@ -52,7 +60,6 @@ Basic Syntax:
 ```
 POST Name-of-the-Index/_update/document-id
 ```
-
 ### Delete a document
 
 Basic Syntax:
