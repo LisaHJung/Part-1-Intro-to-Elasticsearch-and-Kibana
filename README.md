@@ -14,7 +14,7 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 ## Getting information about cluster and nodes
 Basic Syntax: 
 ```
-HTTP-Verb _API/command
+HTTP-Verb _API/info you want
 ```
 ### Get info about cluster health
 ```
