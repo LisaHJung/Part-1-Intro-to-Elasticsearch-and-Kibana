@@ -61,7 +61,7 @@ POST favorite_candy/_doc
 For more detailed explanation, check out this [documentation](https://www.elastic.co/guide/en/elasticsearch/guide/current/index-doc.html) from Elastic! 
 
 ```
-PUT Name-of-the-Index/document-endpoint/document-id
+PUT Name-of-the-Index/_doc/document-id
 {
   "field": "value"
 }
