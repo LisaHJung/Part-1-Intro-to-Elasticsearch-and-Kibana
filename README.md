@@ -12,7 +12,7 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
 ## Getting information about cluster and nodes
-Basic Syntax: 
+Syntax: 
 ```
 HTTP-Verb _API/info you want
 ```
@@ -28,7 +28,7 @@ GET _nodes/stats
 
 ## C - Create
 ### Create an index
-Basic Syntax:
+Syntax:
 ```
 PUT Name-of-the-Index
 ```
@@ -41,7 +41,7 @@ When indexing a document, both HTTP verbs `POST` or `PUT` can be used.
 
 1) Use POST when you want Elasticsearch to autogenerate an id for your document. 
 
-Basic Syntax:
+Syntax:
 ```
 POST Name-of-the-Index/_doc
 {
@@ -60,6 +60,7 @@ POST favorite_candy/_doc
 2) Use PUT when you want to assign a specific id to your document(i.e. if your document has a natural identifier - purchase order number, patient id, & etc).
 For more detailed explanation, check out this [documentation](https://www.elastic.co/guide/en/elasticsearch/guide/current/index-doc.html) from Elastic! 
 
+Syntax:
 ```
 PUT Name-of-the-Index/_doc/document-id
 {
@@ -81,7 +82,7 @@ If you do not want a existing document to be overwritten, you can use the _creat
 
 With the _create Endpoint, no indexing will occur and you will get a 409 error message. 
 
-Basic Syntax:
+Syntax:
 ```
 PUT Name-of-the-Index/_create/document-id
 ```
@@ -95,7 +96,8 @@ PUT favorite_candy/_create/1
 ```
 ##R - READ
 ### Read a document 
-Basic Syntax:
+
+Syntax:
 ```
 GET Name-of-the-Index/_doc/document-id
 ```
@@ -106,14 +108,15 @@ GET favorite_candy/_doc/1
 
 ##U - UPDATE
 ### Update a document
-Basic Syntax:
+
+Syntax:
 ```
 POST Name-of-the-Index/_update/document-id
 ```
 ##D- DELETE
 ### Delete a document
 
-Basic Syntax:
+Syntax:
 ```
 DELETE Name-of-the-Index/document-endpoint/document-id
 ```
