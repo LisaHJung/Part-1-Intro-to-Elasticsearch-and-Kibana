@@ -37,7 +37,7 @@ Example:
 PUT favorite_candy
 ```
 #### Index a document
-When indexing a document, both HTTP verbs - POST or PUT - can be used. 
+When indexing a document, both HTTP verbs `POST` or `PUT` can be used. 
 
 1) Use POST when you want Elasticsearch to autogenerate an id for your document. 
 Basic Syntax:
@@ -69,8 +69,8 @@ Example:
 ```
 PUT favorite_candy/_doc/1
 {
-"name": "Lisa",
-"candy": "Sour Skittles"
+  "name": "Lisa",
+  "candy": "Sour Skittles"
 }
 ```
 
@@ -88,11 +88,10 @@ Example:
 ```
 PUT favorite_candy/_create/1
 {
-"name": "John",
-"candy": "Jolly Ranchers"
+  "name": "John",
+  "candy": "Jolly Ranchers"
 }
 ```
-
 ##R - READ
 ### Read a document 
 Basic Syntax:
