@@ -40,9 +40,10 @@ PUT favorite_candy
 When indexing a document, both HTTP verbs `POST` or `PUT` can be used. 
 
 1) Use POST when you want Elasticsearch to autogenerate an id for your document. 
+
 Basic Syntax:
 ```
-POST Name-of-the-Index/_document-endpoint
+POST Name-of-the-Index/_doc
 {
   "field": "value"
 }
