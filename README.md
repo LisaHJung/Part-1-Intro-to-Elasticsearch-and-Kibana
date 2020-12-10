@@ -67,7 +67,7 @@ PUT Name-of-the-Index/document-endpoint/document-id
 ```
 Example:
 ```
-PUT favorite_candy/_doc/123 
+PUT favorite_candy/_doc/1
 {
 "name": "Lisa",
 "candy": "Sour Skittles"
@@ -75,9 +75,22 @@ PUT favorite_candy/_doc/123
 ```
 
 ### _create Endpoint
+When you index a document using an id that already exists, the existing document is overwritten by the new document. 
+If you do not want a existing document to be overwritten, you can use the _create endpoint! 
+
+With the _create Endpoint, no indexing will occur and you will get a 409 error message. 
+
 Basic Syntax:
 ```
 PUT Name-of-the-Index/_create/document-id
+```
+Example:
+```
+PUT favorite_candy/_create/1
+{
+"name": "John",
+"candy": "Jolly Ranchers"
+}
 ```
 
 ##R - READ
