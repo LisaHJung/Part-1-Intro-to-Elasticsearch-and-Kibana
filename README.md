@@ -94,7 +94,7 @@ PUT favorite_candy/_create/1
   "candy": "Jolly Ranchers"
 }
 ```
-##R - READ
+## R - READ
 ### Read a document 
 
 Syntax:
@@ -106,14 +106,14 @@ Example:
 GET favorite_candy/_doc/1
 ```
 
-##U - UPDATE
+## U - UPDATE
 ### Update a document
 
 Syntax:
 ```
 POST Name-of-the-Index/_update/document-id
 ```
-##D- DELETE
+## D- DELETE
 ### Delete a document
 
 Syntax:
