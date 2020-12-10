@@ -97,7 +97,11 @@ PUT favorite_candy/_create/1
 ### Read a document 
 Basic Syntax:
 ```
-GET Name-of-the-Index/document-endpoint/document-id
+GET Name-of-the-Index/_doc/document-id
+```
+Example:
+```
+GET favorite_candy/_doc/1
 ```
 
 ##U - UPDATE
