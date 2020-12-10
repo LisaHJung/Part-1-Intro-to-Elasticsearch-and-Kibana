@@ -52,7 +52,7 @@ Example:
 ```
 POST favorite_candy/_doc
 {
-  "name": "Lisa",
+  "first_name": "Lisa",
   "candy": "Sour Skittles"
 }
 ```
@@ -71,7 +71,7 @@ Example:
 ```
 PUT favorite_candy/_doc/1
 {
-  "name": "Lisa",
+  "first_name": "Lisa",
   "candy": "Sour Skittles"
 }
 ```
@@ -90,7 +90,7 @@ Example:
 ```
 PUT favorite_candy/_create/1
 {
-  "name": "John",
+  "first_name": "John",
   "candy": "Jolly Ranchers"
 }
 ```
