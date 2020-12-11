@@ -71,8 +71,8 @@ Example:
 ```
 PUT favorite_candy/_doc/1
 {
-  "first_name": "Lisa",
-  "candy": "Sour Skittles"
+  "first_name": "Rachel",
+  "candy": "Starburst"
 }
 ```
 
@@ -85,6 +85,9 @@ With the _create Endpoint, no indexing will occur and you will get a 409 error m
 Syntax:
 ```
 PUT Name-of-the-Index/_create/document-id
+{
+  "field": "value"
+}
 ```
 Example:
 ```
@@ -96,7 +99,6 @@ PUT favorite_candy/_create/1
 ```
 ## R - READ
 ### Read a document 
-
 Syntax:
 ```
 GET Name-of-the-Index/_doc/document-id
@@ -109,36 +111,51 @@ GET favorite_candy/_doc/1
 ## U - UPDATE
 ### Update a document
 
-Syntax:
+If you want to update fields in a document, use the following syntax:
 ```
-POST Name-of-the-Index/_update/document-id
+POST favorite_candy/_update/document-id
+{
+  "doc": {
+    "field": "value"
+  }
+} 
+```
+Example:
+```
+POST favorite_candy/_update/1
+{
+  "doc": {
+    "candy": "Sweet Tarts"
+  }
+}
 ```
 ## D- DELETE
 ### Delete a document
 
 Syntax:
 ```
-DELETE Name-of-the-Index/document-endpoint/document-id
-```
-##Miscellaneous
-### Return all documents from an index in Elasticsearch
-Make a GET request with the _search API to return all documents in an index using a "match all" query
-https://kb.objectrocket.com/elasticsearch/how-to-return-all-documents-from-an-index-in-elasticsearch
-Basic Syntax:
-```
-GET name-of-the-Index/_search-API
-{
-  "query": {
-    "match_all": {}
-  }
-}
+DELETE Name-of-the-Index/_doc/document-id
 ```
 Example:
 ```
-GET favorite_candy/_search
+DELETE favorite_candy/_doc/1
+```
+##Group Assignment
+1. Create an index called new_friends
+2. For every member of your group, index a document containing their name and city they live in. 
+3. Read(GET) each document to check the content of the document
+4. Update a field of a document.
+5. Read(GET) the updated document to ensure that the field has been updated.
+5. Delete a document of one member
+6. Copy and pastethe following request to return all documents from the new_friends index. 
+```
+GET new_friends/_search
 {
   "query": {
     "match_all": {}
   }
 }
 ```
+
+
+
