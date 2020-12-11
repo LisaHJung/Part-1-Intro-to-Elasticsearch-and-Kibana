@@ -98,7 +98,7 @@ With the _create Endpoint, no indexing will occur and you will get a 409 error m
 
 Syntax:
 ```
-PUT Name-of-the-Index/_create/document-id
+PUT Name-of-the-Index/_create/id-you-want-to-assign-to-this-document
 {
   "field": "value"
 }
