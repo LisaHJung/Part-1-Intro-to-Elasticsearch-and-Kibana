@@ -141,13 +141,14 @@ Example:
 DELETE favorite_candy/_doc/1
 ```
 ##Group Assignment
-1. Create an index called new_friends
+1. Create an index called new_friends.
 2. For every member of your group, index a document containing their name and city they live in. 
-3. Read(GET) each document to check the content of the document
+3. Read(GET) each document to check the content of the document.
 4. Update a field of a document.
 5. Read(GET) the updated document to ensure that the field has been updated.
-5. Delete a document of one member
-6. Copy and pastethe following request to return all documents from the new_friends index. 
+5. Delete a document of one member.
+6. Copy and paste the following request to return all documents from the new_friends index. 
+This is a great way to check whether all the CRUD operations you have performed thus far have worked!
 ```
 GET new_friends/_search
 {
