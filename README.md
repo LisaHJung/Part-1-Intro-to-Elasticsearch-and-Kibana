@@ -77,7 +77,7 @@ For more detailed explanation, check out this [documentation](https://www.elasti
 
 Syntax:
 ```
-PUT Name-of-the-Index/_doc/document-id
+PUT Name-of-the-Index/_doc/id-you-want-to-assign-to-this-document
 {
   "field": "value"
 }
@@ -120,7 +120,7 @@ Response from Elasticsearch:
 ### Read a document 
 Syntax:
 ```
-GET Name-of-the-Index/_doc/document-id
+GET Name-of-the-Index/_doc/id-of-the-document-you-want-to-retrieve
 ```
 Example:
 ```
@@ -135,7 +135,7 @@ Response from Elasticsearch:
 
 If you want to update fields in a document, use the following syntax:
 ```
-POST Name-of-the-Index/_update/document-id
+POST Name-of-the-Index/_update/id-of-the-document-you-want-to-update
 {
   "doc": {
     "field1": "value",
@@ -162,7 +162,7 @@ Response from Elasticsearch:
 
 Syntax:
 ```
-DELETE Name-of-the-Index/_doc/document-id
+DELETE Name-of-the-Index/_doc/id-of-the-document-you-want-to-delete
 ```
 Example:
 ```
