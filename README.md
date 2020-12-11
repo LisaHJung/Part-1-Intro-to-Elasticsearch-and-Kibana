@@ -47,6 +47,8 @@ PUT favorite_candy
 
 Response from Elasticsearch:
 
+![image](https://user-images.githubusercontent.com/60980933/101956137-5459e500-3bbc-11eb-823d-9a6871924afd.png)
+
 #### Index a document
 When indexing a document, both HTTP verbs `POST` or `PUT` can be used. 
 
