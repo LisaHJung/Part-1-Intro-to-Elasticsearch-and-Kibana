@@ -7,7 +7,7 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 
 ## Resources
 
-[Powerpoint Presentation]()
+[Powerpoint Presentation](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Part-1.1-Intro-to-Elasticsearch-and-Kibana/blob/main/Beginner%E2%80%99s%20crash%20course%20to%20Elastic%20Stack%20-%20Part%201.%201%20Intro%20to%20Elasticsearch%20and%20Kibana%20(2).pdf)
 
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
@@ -170,17 +170,17 @@ DELETE favorite_candy/_doc/1
 ```
 ![image](https://user-images.githubusercontent.com/60980933/101939174-dab4fd80-3ba1-11eb-93fe-de682853bae4.png)
 
-## Group Assignment
-1. Create an index called new_friends.
-2. For every member of your group, index a document containing their name and city they live in. 
+## Assignment
+1. Create an index called friends.
+2. Pick five of your favorite friends, index a document containing their name and city they live in. 
 3. Read(GET) each document to check the content of the document.
 4. Update a field of a document.
 5. Read(GET) the updated document to ensure that the field has been updated.
-5. Delete a document of one member.
-6. Copy and paste the following request to return all documents from the new_friends index. 
+5. Delete a document of one friend.
+6. Copy and paste the following request to return all documents from the friends index. 
 This is a great way to check whether all the CRUD operations you have performed thus far have worked!
 ```
-GET new_friends/_search
+GET friends/_search
 {
   "query": {
     "match_all": {}
