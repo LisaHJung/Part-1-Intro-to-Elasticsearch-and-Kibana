@@ -7,7 +7,7 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 
 ## Resources
 
-[Powerpoint Presentation](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Part-1.1-Intro-to-Elasticsearch-and-Kibana/blob/main/Beginner%E2%80%99s%20crash%20course%20to%20Elastic%20Stack%20-%20Part%201.%201%20Intro%20to%20Elasticsearch%20and%20Kibana%20(2).pdf)
+[Presentation](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Part-1.1-Intro-to-Elasticsearch-and-Kibana/blob/main/Beginner%E2%80%99s%20crash%20course%20to%20Elastic%20Stack%20-%20Part%201.%201%20Intro%20to%20Elasticsearch%20and%20Kibana%20(2).pdf)
 
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
