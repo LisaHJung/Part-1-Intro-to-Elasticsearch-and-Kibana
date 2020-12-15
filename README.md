@@ -176,7 +176,7 @@ DELETE favorite_candy/_doc/1
 3. Read(GET) each document to check the content of the document.
 4. Update a field of a document.
 5. Read(GET) the updated document to ensure that the field has been updated.
-5. Delete a document of one friend.
+5. Delete a document of one place.
 6. Copy and paste the following request to return all documents from the places index. 
 This is a great way to check whether all the CRUD operations you have performed thus far have worked!
 ```
