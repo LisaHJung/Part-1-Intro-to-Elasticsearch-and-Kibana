@@ -171,16 +171,16 @@ DELETE favorite_candy/_doc/1
 ![image](https://user-images.githubusercontent.com/60980933/101939174-dab4fd80-3ba1-11eb-93fe-de682853bae4.png)
 
 ## Assignment
-1. Create an index called friends.
-2. Pick five of your favorite friends, index a document containing their name and city they live in. 
+1. Create an index called places.
+2. Pick five of the places you want to visit after the pandemic is over. For each place, index a document containing the name and the country. 
 3. Read(GET) each document to check the content of the document.
 4. Update a field of a document.
 5. Read(GET) the updated document to ensure that the field has been updated.
 5. Delete a document of one friend.
-6. Copy and paste the following request to return all documents from the friends index. 
+6. Copy and paste the following request to return all documents from the places index. 
 This is a great way to check whether all the CRUD operations you have performed thus far have worked!
 ```
-GET friends/_search
+GET places/_search
 {
   "query": {
     "match_all": {}
