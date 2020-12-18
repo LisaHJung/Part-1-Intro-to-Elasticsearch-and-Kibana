@@ -11,6 +11,8 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
+[Recording](https://www.youtube.com/watch?v=gS_nHTWZEJ8&t=8s) of the workshop
+
 ## Getting information about cluster and nodes
 Syntax: 
 ```
