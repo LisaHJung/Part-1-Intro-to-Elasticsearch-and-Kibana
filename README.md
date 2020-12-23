@@ -1,4 +1,4 @@
-# Beginner's Crash Course to the Elastic Stack
+# Beginner's Crash Course to the Elastic Stack Series
 ## Part 1.1: Intro to Elasticsearch & Kibana
 
 Welcome to the Beginner's Crash Course to the Elastic Stack!
@@ -7,11 +7,13 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 
 ## Resources
 
-[Presentation](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Part-1.1-Intro-to-Elasticsearch-and-Kibana/blob/main/Beginner%E2%80%99s%20crash%20course%20to%20Elastic%20Stack%20-%20Part%201.%201%20Intro%20to%20Elasticsearch%20and%20Kibana%20(2).pdf)
+[Presentation](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Part-1.1-Intro-to-Elasticsearch-and-Kibana/blob/79eda1193c23601b1875e293374d87e9c98318c3/Beginner%E2%80%99s%20crash%20course%20to%20Elastic%20Stack%20-%20Part%201.%201%20Intro%20to%20Elasticsearch%20and%20Kibana%20(3).pdf)
 
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
 [Recording](https://www.youtube.com/watch?v=gS_nHTWZEJ8&t=8s) of the workshop
+
+[Blog](https://dev.to/lisahjung/beginner-s-guide-to-performing-crud-operations-with-elasticsearch-kibana-1h0n) Beginner's guide to performing CRUD operations with Elasticsearch and Kibana
 
 ## Getting information about cluster and nodes
 Syntax: 
@@ -22,7 +24,7 @@ GET _API/parameter
 ```
 GET _cluster/health
 ```
-Response from Elasticsearch:
+Expected response from Elasticsearch:
 
 ![image](https://user-images.githubusercontent.com/60980933/101955613-64bd9000-3bbb-11eb-89da-564dd8680155.png)
 
@@ -30,7 +32,7 @@ Response from Elasticsearch:
 ```
 GET _nodes/stats
 ```
-Response from Elasticsearch:
+Expected response from Elasticsearch:
 
 ![image](https://user-images.githubusercontent.com/60980933/101932662-5742de80-3b98-11eb-941c-7b654b16858c.png)
 
@@ -47,7 +49,7 @@ Example:
 PUT favorite_candy
 ```
 
-Response from Elasticsearch:
+Expected response from Elasticsearch:
 
 ![image](https://user-images.githubusercontent.com/60980933/101956137-5459e500-3bbc-11eb-823d-9a6871924afd.png)
 
@@ -71,7 +73,7 @@ POST favorite_candy/_doc
   "candy": "Sour Skittles"
 }
 ```
-Response from Elasticsearch:
+Expected response from Elasticsearch:
 ![image](https://user-images.githubusercontent.com/60980933/101933971-2d8ab700-3b9a-11eb-99a4-7d34b9819050.png)
 
 2) Use PUT when you want to assign a specific id to your document(i.e. if your document has a natural identifier - purchase order number, patient id, & etc).
@@ -114,7 +116,7 @@ PUT favorite_candy/_create/1
 }
 ```
 
-Response from Elasticsearch:
+Expected response from Elasticsearch:
 
 ![image](https://user-images.githubusercontent.com/60980933/101937947-cf60d280-3b9f-11eb-8341-316ec4a69b35.png)
 
@@ -128,7 +130,7 @@ Example:
 ```
 GET favorite_candy/_doc/1
 ```
-Response from Elasticsearch:
+Expected response from Elasticsearch:
 
 ![image](https://user-images.githubusercontent.com/60980933/101935925-0d102c00-3b9d-11eb-9620-1b642364ef6a.png)
 
@@ -154,8 +156,7 @@ POST favorite_candy/_update/1
   }
 }
 ```
-
-Response from Elasticsearch:
+Expected response from Elasticsearch:
 
 ![image](https://user-images.githubusercontent.com/60980933/101938690-05528680-3ba1-11eb-8eec-8e2dce678405.png)
 
@@ -170,9 +171,10 @@ Example:
 ```
 DELETE favorite_candy/_doc/1
 ```
+Expected response from Elasticsearch:
 ![image](https://user-images.githubusercontent.com/60980933/101939174-dab4fd80-3ba1-11eb-93fe-de682853bae4.png)
 
-## Assignment
+## Take Home Assignment
 1. Create an index called places.
 2. Pick five of the places you want to visit after the pandemic is over. For each place, index a document containing the name and the country. 
 3. Read(GET) each document to check the content of the document.
