@@ -15,6 +15,8 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 
 [Blog](https://dev.to/lisahjung/beginner-s-guide-to-performing-crud-operations-with-elasticsearch-kibana-1h0n) Beginner's guide to performing CRUD operations with Elasticsearch and Kibana
 
+[Elastic Austin User Group](https://www.meetup.com/elastic-austin-user-group/members/) Want to attend live workshops? Join the Elastic Austin User Group to keep up to date on all future events!
+
 ## Getting information about cluster and nodes
 Syntax: 
 ```
