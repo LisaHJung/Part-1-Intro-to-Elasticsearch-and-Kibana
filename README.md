@@ -7,11 +7,15 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 
 ## Resources
 
-[Presentation](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Part-1.1-Intro-to-Elasticsearch-and-Kibana/blob/79eda1193c23601b1875e293374d87e9c98318c3/Beginner%E2%80%99s%20crash%20course%20to%20Elastic%20Stack%20-%20Part%201.%201%20Intro%20to%20Elasticsearch%20and%20Kibana%20(3).pdf)
+[Free Elastic Cloud Trial](https://ela.st/elastic-beginners)
 
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
+[Presentation](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Part-1.1-Intro-to-Elasticsearch-and-Kibana/blob/79eda1193c23601b1875e293374d87e9c98318c3/Beginner%E2%80%99s%20crash%20course%20to%20Elastic%20Stack%20-%20Part%201.%201%20Intro%20to%20Elasticsearch%20and%20Kibana%20(3).pdf)
+
 [Recording](https://www.youtube.com/watch?v=gS_nHTWZEJ8&t=8s) of the workshop
+
+[Blog](https://dev.to/lisahjung/beginner-s-guide-to-elasticsearch-4j2k) Beginner's guide to Elasticsearch
 
 [Blog](https://dev.to/lisahjung/beginner-s-guide-to-performing-crud-operations-with-elasticsearch-kibana-1h0n) Beginner's guide to performing CRUD operations with Elasticsearch and Kibana
 
