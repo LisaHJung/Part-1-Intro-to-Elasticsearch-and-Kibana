@@ -1,5 +1,5 @@
 # Beginner's Crash Course to the Elastic Stack Series
-## Part 1.1: Intro to Elasticsearch & Kibana
+## Part 1: Intro to Elasticsearch & Kibana
 
 Welcome to the Beginner's Crash Course to the Elastic Stack!
 
