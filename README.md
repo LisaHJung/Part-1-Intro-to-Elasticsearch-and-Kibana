@@ -19,9 +19,9 @@ This repo contains all resources shared during the workshop 1.1: Intro to Elasti
 
 [Blog](https://dev.to/lisahjung/beginner-s-guide-to-performing-crud-operations-with-elasticsearch-kibana-1h0n) Beginner's guide to performing CRUD operations with Elasticsearch and Kibana
 
-[Elastic Austin User Group](https://www.meetup.com/elastic-austin-user-group/members/) Want to attend live workshops? Join the Elastic Austin User Group to keep up to date on all future events!
+[Elastic Vancouver Chapter](https://community.elastic.co/vancouver/) Want to attend live workshops? Join the Elastic Vancouver Chapter to get the deets!
 
-[What's next?](https://github.com/LisaHJung/Part-2-Understanding-the-relevance-of-your-search-with-Elasticsearch-and-Kibana-) Want to continue your learning after mastering the concept from this workshop? Move on to Part 2: Understanding the relevance of your search with Elasticsearch and Kibana [here](https://github.com/LisaHJung/Part-2-Understanding-the-relevance-of-your-search-with-Elasticsearch-and-Kibana-)!
+[What's next?](https://github.com/LisaHJung/Part-2-Understanding-the-relevance-of-your-search-with-Elasticsearch-and-Kibana-) Eager to continue your learning after mastering the concept from this workshop? Move on to Part 2: Understanding the relevance of your search with Elasticsearch and Kibana [here](https://github.com/LisaHJung/Part-2-Understanding-the-relevance-of-your-search-with-Elasticsearch-and-Kibana-)!
 
 ## Getting information about cluster and nodes
 Syntax: 
