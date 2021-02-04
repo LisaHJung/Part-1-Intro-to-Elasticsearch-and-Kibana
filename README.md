@@ -1,7 +1,7 @@
-# Beginner's Crash Course to the Elastic Stack Series
+# Beginner's Crash Course to Elastic Stack Series
 ## Part 1: Intro to Elasticsearch & Kibana
 
-Welcome to the Beginner's Crash Course to the Elastic Stack!
+Welcome to the Beginner's Crash Course to Elastic Stack!
 
 This repo contains all resources shared during the workshop 1.1: Intro to Elasticsearch and Kibana.
 
