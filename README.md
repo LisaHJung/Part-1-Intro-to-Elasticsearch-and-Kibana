@@ -3,7 +3,13 @@
 
 Welcome to the Beginner's Crash Course to Elastic Stack!
 
-This repo contains all resources shared during the workshop 1.1: Intro to Elasticsearch and Kibana.
+This repo contains all resources shared during workshop Part 1: Intro to Elasticsearch and Kibana.
+
+By the end of this workshop, you will be able to:
+
+- understand a use case of Elasticsearch and Kibana
+- understand the basic architecture of Elasticsearch
+- perform CRUD(Create, Read, Update, and Delete) operations with Elasticsearch and Kibana
 
 ## Resources
 
