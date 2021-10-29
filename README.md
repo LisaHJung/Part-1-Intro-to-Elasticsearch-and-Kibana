@@ -23,7 +23,7 @@ By the end of this workshop, you will be able to:
 
 [Presentation](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/Part%201-%20BCC-PPT%20slides.pdf)
 
-[Recording](https://www.youtube.com/watch?v=gS_nHTWZEJ8&t=8s) of the workshop
+[Video recording](https://www.youtube.com/watch?v=gS_nHTWZEJ8&t=8s) of the workshop
 
 [Mini Beginner's Crash Course to Elasticsearch & Kibana playlist](https://ela.st/mini-beginners-crash-course)
 
