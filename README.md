@@ -21,7 +21,7 @@ By the end of this workshop, you will be able to:
 
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
-[Presentation](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/Part%201-%20BCC-PPT%20slides.pdf)
+[Presentation]()
 
 [Video recording](https://www.youtube.com/watch?v=gS_nHTWZEJ8&t=8s) of the workshop
 
