@@ -22,6 +22,8 @@ By the end of this workshop, you will be able to:
 [Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
 
 [Alternative installation using Docker](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/docker-compose.yml)
+
+
 One of our AMAZING community member @h3ct0rjs has shared how you can run Elasticsearch and Kibana using Docker! Refer to the link for his awesome step by step directions. Thank you so much @h3ct0rjs!!
 
 [Presentation](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/Intro%20to%20Elasticsearch%20and%20Kibana.pdf)
