@@ -11,6 +11,47 @@ By the end of this workshop, you will be able to:
 - understand the basic architecture of Elasticsearch
 - perform CRUD(Create, Read, Update, and Delete) operations with Elasticsearch and Kibana
 
+## Alternative Installation Using Docker
+
+For this Beginner's Crash Course you can also use Docker to run Elasticsearch and Kibana this is not showed in the youtube video but it is optional and another popular way to install the software. You're going to find a docker-compose file that is going to deploy and install both Docker images using the following version.
+
+- elasticsearch:7.11.1
+- kibana:7.11.1
+
+In order to be able to run this you will need to have installed:
+
+- [Docker](https://docs.docker.com/desktop/linux/) or  [Docker Desktop](https://docs.docker.com/desktop/).
+- [Docker Compose](https://docs.docker.com/compose/).
+
+Later on, you will be able to install Elasticsearch and Kibana using the following command:
+
+```sh
+docker-compose up -d
+```
+
+The previous command is going to spin up two docker containers that will be in the same Docker network and in detached mode, with this you will be able to open the following urls :
+
+* http://localhost:5601/ - Kibana Web UI interface
+* http://localhost:9200/ - Elastic Search API
+
+If you want to check the logs :
+```sh
+docker-compose logs elasticsearch
+```
+for Kibana :
+```sh
+docker-compose logs kibana
+```
+If you want to stop Elasticsearch and Kibana you will need to run the following command :
+```sh
+docker-compose stop
+```
+If you want to stop and destroy  the docker services :
+
+```sh
+docker-compose down
+```
+
 ## Resources
 
 [Beginner's Crash Course to Elastic Stack Table of Contents](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Series) This workshop is a part of the Beginner's Crash Course to Elastic Stack series. Check out this table contents to access all the workshops in the series thus far. This table will continue to get updated as more workshops in the series are released! 
