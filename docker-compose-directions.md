@@ -1,3 +1,6 @@
+Related Resource
+- [docker-compose.yml](https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana/blob/main/docker-compose.yml)
+
 For this Beginner's Crash Course, you can also use Docker to run Elasticsearch and Kibana this is not showed in the youtube video but it is optional and another popular way to install the software. You're going to find a docker-compose file that is going to deploy and install both Docker images using the following version.
 
 - elasticsearch:7.11.1
