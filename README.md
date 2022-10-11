@@ -203,22 +203,19 @@ Expected response from Elasticsearch:
 ![image](https://user-images.githubusercontent.com/60980933/101939174-dab4fd80-3ba1-11eb-93fe-de682853bae4.png)
 
 ## Take Home Assignment
-1. Create an index called places.
-2. Pick five of the places you want to visit after the pandemic is over. For each place, index a document containing the name and the country. 
+1. Create an index called `destinations`.
+2. Pick five dream travel destinations. For each destination, index a document containing the name and the country. 
 3. Read(GET) each document to check the content of the document.
 4. Update a field of a document.
 5. Read(GET) the updated document to ensure that the field has been updated.
 6. Delete a document of one place.
-7. Copy and paste the following request to return all documents from the places index. 
+7. Copy and paste the following request to return all documents from the `destinations` index. 
 This is a great way to check whether all the CRUD operations you have performed thus far have worked!
 ```
-GET places/_search
+GET destinations/_search
 {
   "query": {
     "match_all": {}
   }
 }
 ```
-
-
-
